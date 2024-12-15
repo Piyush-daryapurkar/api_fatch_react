@@ -1,0 +1,55 @@
+.admin_boss{
+    display: flex;
+
+
+}
+
+
+.admin_main{
+    height: auto;
+    width: 100%;
+    background-color:silver;
+    text-align: center;
+
+    th{
+        width: 190px;
+        height: 46px;
+        background-color: #c2b2b2;
+        border: 1px solid black ;
+        font-size: 22px;
+
+    }
+    td{
+        border: 1px solid black;
+        height: 20px;
+        padding: 10px;
+        background-color: #d1c6c6;
+
+
+
+
+    }
+    table{
+        border: dashed;
+        margin-left: 90px;
+  
+    }
+    h1{
+        height: 40px;
+        width: 220px;
+        border-radius: 50px;
+        background-color: #c2b2b2;
+        margin-left: 630px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    button{
+        background-color: #c2b2b2;
+        height: 30px;
+        width: 176px;
+
+
+    }
+}
