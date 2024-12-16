@@ -9,7 +9,7 @@
     text-align: center;
     align-items: center;
     padding: 40px;
-    background-color:rgb(39, 109, 109);
+    background-color: #c2b2b2;
     border-style: dashed;
     width: 40%;
     margin-left: 360px;
@@ -33,7 +33,7 @@
         border-radius: 10px;
         border:1px solid gray;
         color: white;
-        background-color:rgb(47, 96, 96);
+        background-color: #c2b2b2;
 
 
     }

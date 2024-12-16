@@ -9,10 +9,17 @@ export const getuser=async()=>{
     return response.data;
 }
 
-//insert data inti json server
+//insert data into json server
 
 export const adduser=async(user)=>{
     const response=await axios.post(API_URL,user)
     return response.data
 
+}
+
+//delete data 
+
+export const deleteuser=async(id)=>{
+    const response=await axios.delete(`${API_URL}/${id}`);
+    return response.data 
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
-import { getuser ,adduser} from './api/userService'
+import { getuser ,adduser,deleteuser} from './api/userService'
 import { BrowserRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import "./css/Admin.css"
@@ -39,6 +39,11 @@ const Admin = () => {
         }
        }
 
+       const handeldelete=async(id)=>{
+        const deleteuser1=await deleteuser(id)
+        update_user_data(user_data.filter((user)=>user.id!==id))
+       }
+
 
   return (
     <>
@@ -66,9 +71,8 @@ const Admin = () => {
               <td>{item.email}</td>
               <td>{item.password}</td>
               <td><button>remove</button></td>
-              <td><button>delete</button></td>
-
-             
+              <td><button onClick={()=>handeldelete(item.id)}>delete</button></td>
+ 
           </tr>
       ))
   }
