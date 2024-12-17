@@ -43,6 +43,13 @@ const Admin = () => {
         const deleteuser1=await deleteuser(id)
         update_user_data(user_data.filter((user)=>user.id!==id))
        }
+       //for update
+
+      //  const edit=async(e)=>{
+      //   e.preventDefult();
+      //   const user={name,email,password}
+      //   await updateuser(id,user)
+      //  }
 
 
   return (

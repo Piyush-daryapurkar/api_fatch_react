@@ -1,7 +1,7 @@
 import React from 'react'
 import Admin from './Admin'
-import Nav from './Nav'
-import Home from './Home'
+import Navbar from './Nav'
+import Slider from './Slider'
 import Signup from './Signup'
 import Login from './Login'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -12,9 +12,9 @@ const App = () => {
     <>
 
      <Router>
-       <Nav/>
+       <Navbar/>
        <Routes>
-         <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Slider/>}/>
          <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="admin" element={<Admin/>} />
@@ -27,5 +27,4 @@ const App = () => {
 }
 
 export default App
-
 

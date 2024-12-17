@@ -3,34 +3,37 @@
     padding: 0;
 }
 
-
-
-
-
-.menu{
-    width: 100%;
-    height: 80px;
+.nav_boss{
     display: flex;
-    background-color:#c98989;
-    justify-content: center;
-    text-align: center;
+    height: 80px;
+    width: 100%;
+    background-color:white;
     align-items: center;
+    justify-content: space-around;
+}
+.nav_list {
+    display: flex;
     text-decoration: none;
-    font-size: 24px;
-    gap: 38px;
-ul li{
-    list-style: none;
-
 
 }
-
-
-}
-.link{
+.nav_list ul li a{
     text-decoration: none;
+    color: rgb(131, 118, 118);
+    font-size: 22px;
     list-style: none;
-    color: white;
+    box-shadow: none;
+}
+
+.nav_list ul li a:hover{
+    color: rgb(157, 61, 61);
+   box-shadow: (0,0,0,100);
 
 }
 
-
+select{
+    margin-left: 24px;
+    border: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 16px;
+}

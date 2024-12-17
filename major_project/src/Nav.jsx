@@ -1,46 +1,47 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 import './css/Nav.css'
-import { Link } from 'react-router-dom';
 
-const Nav = () => {
+const Navbar = () => {
   return (
-  <>
-  <h1></h1>
-    <div>
-      <nav>
-        <div className="main">
-          <div className="menu">
-            
-          <ul><li><Link className='link'  to="/">Home</Link></li></ul>
-          <ul><li><Link className='link'  to="/login">login</Link></li></ul>
+    <div className="nav_boss">
+      <div className="nav_logo">
+        <img src="vite.svg" alt="" />
+      </div>
+      <div className="nav_list">
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+        </ul>
 
-          <ul><li><Link className='link'  to="/signup">signup</Link></li></ul>
+        <ul>
+          <li>
+            <Link to="/signup">Signup</Link>
+          </li>
+        </ul>
 
-          <ul><li><Link className='link'  to="/admin">admin</Link></li></ul>
+        <ul>
+          <li>
+            <Link to="/login">Login</Link>
+          </li>
+        </ul>
 
-          
-
-          </div>
-
-        </div>
-      </nav>
+        <ul>
+          <li>
+            <Link to="/admin">Admin</Link>
+          </li>
+        </ul>
+        <select name="" id="">mo
+          <option value="">movies</option>
+          <option value="">Holywood</option>
+          <option value="">Bollywood</option>
+          <option value="">Tollywood</option>
+        </select>
+      </div>
     </div>
-  </>
-  )
-}
+    
+  );
+};
 
-export default Nav;
-
-
-// import { Link } from 'react-router-dom';
-
-// function Navbar() {
-//   return (
-//     <nav>
-//       <Link to="/">Home</Link>
-//       <Link to="/about">About</Link>
-//     </nav>
-//   );
-// }
-// export default Navbar
-
+export default Navbar;
