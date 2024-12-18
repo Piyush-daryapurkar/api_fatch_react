@@ -57,7 +57,7 @@ const Admin = () => {
 
     <div className="admin_boss">
       <div className="admin_main">
-      <h1 >Admin</h1>
+      
 
 <table>
   <tr>
@@ -65,8 +65,8 @@ const Admin = () => {
       <th>Name</th>
       <th>Email</th>
       <th>Password</th>
-      <th>Remove</th>
       <th>Delete</th>
+      <th>Update</th>
    
 
   </tr>
@@ -77,8 +77,8 @@ const Admin = () => {
               <td>{item.name}</td>
               <td>{item.email}</td>
               <td>{item.password}</td>
-              <td><button>remove</button></td>
-              <td><button onClick={()=>handeldelete(item.id)}>delete</button></td>
+              <td><button>Delete</button></td>
+              <td><button onClick={()=>handeldelete(item.id)}>Update</button></td>
  
           </tr>
       ))

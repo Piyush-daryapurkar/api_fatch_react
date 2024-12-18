@@ -17,8 +17,7 @@ export const adduser=async(user)=>{
 
 }
 
-//delete data 
-
+//delete data
 export const deleteuser=async(id)=>{
     const response=await axios.delete(`${API_URL}/${id}`);
     return response.data 

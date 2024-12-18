@@ -32,8 +32,8 @@ const Navbar = () => {
             <Link to="/admin">Admin</Link>
           </li>
         </ul>
-        <select name="" id="">mo
-          <option value="">movies</option>
+        <select name="" id="">
+          <option value="">Movies</option>
           <option value="">Holywood</option>
           <option value="">Bollywood</option>
           <option value="">Tollywood</option>
