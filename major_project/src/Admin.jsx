@@ -25,7 +25,9 @@ const Admin = () => {
        const handaladduser=async()=>{
         if(name && email && password){
           const newuser={name,email,password}
-          const adduser1=await adduser(newuser)
+          const adduser1=await adduser(newuser) 
+
+          // time and space complacity
 
           update_user_data((prev)=>[...prev,adduser1])
           update_name("");
