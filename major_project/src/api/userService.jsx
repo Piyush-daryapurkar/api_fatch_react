@@ -22,3 +22,10 @@ export const deleteuser=async(id)=>{
     const response=await axios.delete(`${API_URL}/${id}`);
     return response.data 
 }
+
+//update
+
+export const updateuser=async(id,user)=>{
+    const response=await axios.put(`${API_URL}/${id}`,user)
+    return response.data;
+}

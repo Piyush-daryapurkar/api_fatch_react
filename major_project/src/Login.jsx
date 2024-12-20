@@ -1,5 +1,4 @@
 import React from 'react'
-import "./css/Log_sign.css"
 
 const Login=()=> {
   
