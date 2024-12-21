@@ -79,8 +79,8 @@ const Admin = () => {
               <td>{item.name}</td>
               <td>{item.email}</td>
               <td>{item.password}</td>
-              <td><button>Delete</button></td>
-              <td><button onClick={()=>handeldelete(item.id)}>Update</button></td>
+              <td><button>update</button></td>
+              <td><button onClick={()=>handeldelete(item.id)}>Delete</button></td>
  
           </tr>
       ))

@@ -31,30 +31,6 @@
       "password": "drugmahakal@gamil.com"
     },
     {
-      "id": "cd60",
-      "name": "drugmahakal@gamil.com",
-      "email": "drugmahakal@gamil.com",
-      "password": "drugmahakal@gamil.com"
-    },
-    {
-      "id": "f230",
-      "name": "drugmahakal@gamil.com",
-      "email": "drugmahakal@gamil.com",
-      "password": "drugmahakal@gamil.com"
-    },
-    {
-      "id": "8d02",
-      "name": "ambani mukesh",
-      "email": "ambani@12",
-      "password": "1234"
-    },
-    {
-      "id": "9031",
-      "name": "piyush daryapurkar ",
-      "email": "piyush@gmail .com",
-      "password": "piyush12"
-    },
-    {
       "id": "92f5",
       "name": "taha ulla khan",
       "email": "taha@gmail.com",
@@ -71,12 +47,6 @@
       "name": "taha ulla khan",
       "email": "taha@gmail.com",
       "password": "1234"
-    },
-    {
-      "id": "1daf",
-      "name": "piyushdaryapurkar309@gmail.com",
-      "email": "piyushdaryapurkar309@gmail.com",
-      "password": "piyushdaryapurkar309@gmail.com"
     },
     {
       "id": "124",
@@ -179,6 +149,12 @@
       "name": "shourya12",
       "email": "piyushdaryapurkar309@gmail.com",
       "password": "12"
+    },
+    {
+      "id": "bfa5",
+      "name": "piyush",
+      "email": "piyushdaryapurkar309@gmail.com",
+      "password": "1234"
     }
   ]
 }
