@@ -20,6 +20,12 @@ const Navbar = () => {
             <Link to="/admin">admin</Link>
           </li>
         </ul>
+        
+        <ul>
+          <li>
+            <Link to="/admin">admin</Link>
+          </li>
+        </ul>
 
       
         <select name="" id="">
